@@ -1,0 +1,21 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiLanguage
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/bg.jpg
+  action = texturizebackground
+}
+
+customization {
+  path = resources/Atmospheric Sci-Fi Horror Music - Interdimensional Horrors __ Royalty Free No Copyright Music.wav
+  loop = false
+  action = addaudio
+}
+

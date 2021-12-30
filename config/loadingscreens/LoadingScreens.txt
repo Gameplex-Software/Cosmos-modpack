@@ -1,0 +1,8 @@
+background = addStretchedTexture("top_left", "loadingscreen:options_background.png")
+background.setRelRender(1, 1)
+
+tips = addRandomText("top_left")
+tips.setAbsXOffset(5)
+tips.setAbsYOffset(5)
+tips.addTip("Press the ~ key to open the quests screen.")
+tips.addTip("Cosmos website: https://gameplex-software.github.io/cosmos")

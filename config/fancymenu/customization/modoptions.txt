@@ -1,0 +1,15 @@
+type = menu
+
+customization-meta {
+  identifier = ic2.core.gui.Ic2GuiFactory$IC2ConfigGuiScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/bg.jpg
+  action = texturizebackground
+}
+

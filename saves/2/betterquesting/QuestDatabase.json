@@ -1,0 +1,1251 @@
+{
+  "build:8": "3.5.329",
+  "format:8": "2.0.0",
+  "questDatabase:9": {
+    "0:10": {
+      "questID:3": 0,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "advancedrocketry:bucketoxygen",
+            "Count:3": 1,
+            "tag:10": {
+              "Fluid:10": {
+                "FluidName:8": "oxygen",
+                "Amount:3": 1000
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Find damaged section",
+          "desc:8": "Find the damaged section of the station and assess the damage"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": 6,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 67,
+          "posY:3": 77,
+          "posZ:3": 61,
+          "biome:8": "",
+          "name:8": "Oxygen shutoff",
+          "dimension:3": -2,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1:10": {
+      "questID:3": 1,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Locate Oxygen leak",
+          "desc:8": "Find the damaged section of the station and assess the damage."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 0,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "2:10": {
+      "questID:3": 2,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "immersiveengineering:connector",
+            "Count:3": 1,
+            "Damage:2": 9,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Shut off lab oxygen",
+          "desc:8": "This hallway will take some time to repair, you must shut off the oxygen pipes to stop the leak"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "extrautils2:screen",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Locate: The Bridge",
+          "desc:8": "Take a look around the station and note where important locations are"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": 6,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 94,
+          "posY:3": 80,
+          "posZ:3": 15,
+          "biome:8": "",
+          "name:8": "Bridge",
+          "dimension:3": -2,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "4:10": {
+      "questID:3": 4,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "advancedrocketry:rocketmotor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Locate: Main Engineering",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": 4,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 45,
+          "posY:3": 77,
+          "posZ:3": 9,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": -2,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "5:10": {
+      "questID:3": 5,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "immersiveengineering:wooden_device0",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Locate: Cargo Bay 1",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": 6,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 59,
+          "posY:3": 77,
+          "posZ:3": 51,
+          "biome:8": "",
+          "name:8": "Cargo Bay 1",
+          "dimension:3": -2,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "6:10": {
+      "questID:3": 6,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "advancedrocketry:spacehelmet",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Locate: Airlock",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": 6,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 37,
+          "posY:3": 77,
+          "posZ:3": 27,
+          "biome:8": "",
+          "name:8": "Airlock",
+          "dimension:3": -2,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "7:10": {
+      "questID:3": 7,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "immersiveengineering:metal_ladder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Locate: Turbolift",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": 4,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 71,
+          "posY:3": 77,
+          "posZ:3": 18,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": -2,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "8:10": {
+      "questID:3": 8,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "enderio:block_tele_pad",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Locate: Transporter room",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": 4,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 63,
+          "posY:3": 77,
+          "posZ:3": 33,
+          "biome:8": "",
+          "name:8": "Transporter room",
+          "dimension:3": -2,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "9:10": {
+      "questID:3": 9,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:written_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Where no man has gone before...",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "10:10": {
+      "questID:3": 10,
+      "preRequisites:11": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "opencomputers:storage",
+            "Count:3": 1,
+            "tag:10": {
+              "oc:data:10": {
+                "oc:fs.label:8": "plan9k"
+              },
+              "oc:color:3": 1,
+              "display:10": {
+                "Name:8": "Plan9k (Operating System)"
+              },
+              "oc:lootFactory:8": "opencomputers:plan9k"
+            },
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Fix Main Computer",
+          "desc:8": "Got to the main cargo bay and place the floppy disk in the storage chest into the drive reader"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "opencomputers:storage",
+              "Count:3": 1,
+              "tag:10": {
+                "oc:data:10": {
+                  "oc:fs.label:8": "plan9k"
+                },
+                "oc:color:3": 1,
+                "display:10": {
+                  "Name:8": "Plan9k (Operating System)"
+                },
+                "oc:lootFactory:8": "opencomputers:plan9k"
+              },
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Run a command script",
+          "viaPlayer:1": 1,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "/say now that I have fixed the main computer, the shuttle bays should be unlocked"
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Run a command script",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "/fill 80 146 46 80 148 48 air"
+        }
+      }
+    },
+    "11:10": {
+      "questID:3": 11,
+      "preRequisites:11": [
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:paper",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Locate Vital resources in Cargo bay 1",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "minecraft:log",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "minecraft:stick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "12:10": {
+      "questID:3": 12,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "flansmod:ak74",
+            "Count:3": 1,
+            "tag:10": {
+              "attachments:10": {
+                "barrel:10": {},
+                "grip:10": {},
+                "generic_0:10": {},
+                "scope:10": {},
+                "stock:10": {}
+              },
+              "ammo:9": {
+                "0:10": {}
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Test Equipment",
+          "desc:8": "Make sure all weaponry is fully functional."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "flansmod:ak74",
+              "Count:3": 1,
+              "tag:10": {
+                "ammo:9": {
+                  "0:10": {}
+                },
+                "attachments:10": {
+                  "barrel:10": {
+                    "ForgeCaps:10": {
+                      "customnpcs:itemscripteddata:10": {}
+                    },
+                    "id:8": "flansmod:flanmwsilencer",
+                    "Count:1": 1,
+                    "tag:10": {},
+                    "Damage:2": 0
+                  },
+                  "grip:10": {
+                    "ForgeCaps:10": {
+                      "customnpcs:itemscripteddata:10": {}
+                    },
+                    "id:8": "flansmod:flanmwforegrip",
+                    "Count:1": 1,
+                    "tag:10": {},
+                    "Damage:2": 0
+                  },
+                  "generic_0:10": {
+                    "ForgeCaps:10": {
+                      "customnpcs:itemscripteddata:10": {}
+                    },
+                    "id:8": "minecraft:air",
+                    "Count:1": 0,
+                    "Damage:2": 0
+                  },
+                  "scope:10": {
+                    "ForgeCaps:10": {
+                      "customnpcs:itemscripteddata:10": {}
+                    },
+                    "id:8": "flansmod:flanmwldcigscope",
+                    "Count:1": 1,
+                    "tag:10": {},
+                    "Damage:2": 0
+                  },
+                  "stock:10": {
+                    "ForgeCaps:10": {
+                      "customnpcs:itemscripteddata:10": {}
+                    },
+                    "id:8": "minecraft:air",
+                    "Count:1": 0,
+                    "Damage:2": 0
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "13:10": {
+      "questID:3": 13,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "flansmod:mp7",
+            "Count:3": 1,
+            "tag:10": {
+              "attachments:10": {
+                "barrel:10": {},
+                "grip:10": {},
+                "generic_0:10": {},
+                "scope:10": {},
+                "stock:10": {}
+              },
+              "ammo:9": {
+                "0:10": {}
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "A terrible sight",
+          "desc:8": "Discover something sinister in cargobay 1"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": 5,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 50,
+          "posY:3": 77,
+          "posZ:3": 51,
+          "biome:8": "",
+          "name:8": "Body",
+          "dimension:3": -2,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Run a command script",
+          "viaPlayer:1": 1,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "/say Whoever did this will pay dearly..."
+        }
+      }
+    },
+    "14:10": {
+      "questID:3": 14,
+      "preRequisites:11": [
+        15,
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "COMPLETED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "malisisdoors:rustyhatch",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "An entity of murder",
+          "desc:8": "Locate signs of fould play"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "15:10": {
+      "questID:3": 15,
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:compass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Doesnt add up",
+          "desc:8": "Wherer is the crew of this station, it looks massive and there should be several people here."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "16:10": {
+      "questID:3": 16,
+      "preRequisites:11": [
+        14
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "enderio:item_dark_steel_sword",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The serach for justice",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "17:10": {
+      "questID:3": 17,
+      "preRequisites:11": [
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "securitycraft:keycard_lv5",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Find station keycards",
+          "desc:8": "Go to cargobay 1 and find the station\u0027s access cards so that you can enter restricted areas."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "securitycraft:keycard_lv3",
+              "Count:3": 1,
+              "tag:10": {
+                "ownerUUID:8": "a4686b5b-2f26-4015-887d-c42382f3f73d",
+                "ownerName:8": "TristanPoland",
+                "signature:3": 41,
+                "linked:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "securitycraft:keycard_lv5",
+              "Count:3": 1,
+              "tag:10": {
+                "ownerUUID:8": "a4686b5b-2f26-4015-887d-c42382f3f73d",
+                "ownerName:8": "TristanPoland",
+                "signature:3": 41,
+                "linked:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -368,
+          "y:3": -224,
+          "id:3": 0,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -368,
+          "y:3": -176,
+          "id:3": 2,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -464,
+          "y:3": -112,
+          "id:3": 3,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -432,
+          "y:3": -112,
+          "id:3": 4,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -400,
+          "y:3": -112,
+          "id:3": 5,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -304,
+          "y:3": -112,
+          "id:3": 6,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -272,
+          "y:3": -112,
+          "id:3": 7,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -336,
+          "y:3": -112,
+          "id:3": 8,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -528,
+          "y:3": -224,
+          "id:3": 9,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -368,
+          "y:3": -32,
+          "id:3": 10,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -208,
+          "y:3": -32,
+          "id:3": 11,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -32,
+          "y:3": -32,
+          "id:3": 12,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -368,
+          "y:3": -112,
+          "id:3": 13,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": -32,
+          "id:3": 15,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -208,
+          "y:3": 16,
+          "id:3": 17,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "name:8": "Taking stock",
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Stardate 234.1 to 255.3"
+        }
+      },
+      "order:3": 0
+    },
+    "1:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -352,
+          "y:3": -224,
+          "id:3": 14,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -304,
+          "y:3": -224,
+          "id:3": 16,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "Hunting the hunters",
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Track down the killers of the station\u0027s crew"
+        }
+      },
+      "order:3": 1
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "livesdef:3": 3,
+      "pack_name:8": "cosmos",
+      "home_anchor_y:5": 0.0,
+      "livesmax:3": 10,
+      "home_anchor_x:5": 0.0,
+      "editmode:1": 0,
+      "hardcore:1": 0,
+      "home_image:8": "cosmos:textures/gui/logo.png",
+      "party_enable:1": 1,
+      "pack_version:3": 0,
+      "home_offset_x:3": 0,
+      "home_offset_y:3": 0
+    }
+  }
+}

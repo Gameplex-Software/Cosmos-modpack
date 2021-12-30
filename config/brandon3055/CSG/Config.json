@@ -1,0 +1,9 @@
+{
+  "inventory": {
+    "0:0": "cosmoscore:cosmoshandbook",
+    "1:3": "advancedrocketry:spacehelmet,1,0,{slotInsert:[B;0B,0B,0B,0B],ench:[{lvl:1s,id:29s}],size:4,slotExtract:[B;0B,0B,0B,0B],outputItems:[]}",
+    "1:0": "advancedrocketry:spaceboots,1,0,{slotInsert:[B;0B,0B,0B,0B],ench:[{lvl:1s,id:29s}],size:4,slotExtract:[B;0B,0B,0B,0B],outputItems:[]}",
+    "1:1": "advancedrocketry:spaceleggings,1,0,{slotInsert:[B;0B,0B,0B,0B],ench:[{lvl:1s,id:29s}],size:4,slotExtract:[B;0B,0B,0B,0B],outputItems:[]}",
+    "1:2": "advancedrocketry:spacechestplate,1,0,{slotInsert:[B;1B,1B,1B,1B,1B,1B],ench:[{lvl:1s,id:29s}],size:6,slotExtract:[B;1B,1B,1B,1B,1B,1B],outputItems:[{Slot:0b,ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"advancedrocketry:pressuretank\",Count:1b,tag:{Fluid:{FluidName:\"oxygen\",Amount:7846}},Damage:3s},{Slot:1b,ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"advancedrocketry:pressuretank\",Count:1b,tag:{Fluid:{FluidName:\"oxygen\",Amount:8000}},Damage:3s}]}"
+  }
+}

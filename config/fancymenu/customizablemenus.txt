@@ -1,0 +1,38 @@
+type = customizablemenus
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+
+net.minecraftforge.fml.client.GuiModList {
+}
+
+net.minecraft.client.gui.GuiWorldSelection {
+}
+
+net.minecraft.client.gui.GuiOptions {
+}
+
+net.minecraft.client.gui.GuiLanguage {
+}
+
+net.minecraft.client.gui.GuiWinGame {
+}
+
+net.minecraft.client.gui.achievement.GuiStats {
+}
+
+net.minecraft.client.gui.GuiIngameMenu {
+}
+
+net.mcreator.cosmoscore.gui.GuiTpmenu$GuiWindow {
+}
+
+net.minecraft.client.gui.inventory.GuiContainerCreative {
+}
+
+zmaster587.libVulpes.inventory.GuiModular {
+}
+
+net.minecraft.client.gui.GuiMultiplayer {
+}
+

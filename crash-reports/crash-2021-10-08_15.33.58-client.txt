@@ -1,0 +1,253 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  XaeroWorldMapPlugin (XaerosWorldMap_1.17.0.1_Forge_1.12.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  TransformerLoader (OpenComputers-MC1.12.2-1.7.5.192.jar)
+  FMCore (fancymenu_2.2.2-1_MC_1.12-1.12.2.jar)
+  KonkreteCore (konkrete_1.1.7_MC_1.12-1.12.2.jar)
+  LittlePatchingLoader (LittleTiles_v1.5.27_mc1.12.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  EntityCullingPlugin (EntityCulling-1.12.2-4.1.5.jar)
+  AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.7.0-232-universal.jar)
+  LoadingPlugin (PerfectSpawn-MC1.12.2-2.1.jar)
+  EnderCorePlugin (EnderCore-1.12.2-0.5.76-core.jar)
+  ParticleCullingLoadingPlugin (particleculling-1.12.2-v1.0.1.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+  CreativePatchingLoader (CreativeCore_v1.10.65_mc1.12.2.jar)
+  XaeroMinimapPlugin (Xaeros_Minimap_21.16.0_Forge_1.12.jar)
+Contact their authors BEFORE contacting forge
+
+// This is a token for 1 free hug. Redeem at your nearest Mojangsta: [~~HUG~~]
+
+Time: 10/8/21 3:33 PM
+Description: Initializing game
+
+java.lang.NullPointerException: Initializing game
+	at cam72cam.mod.serialization.TagSerializer.deserialize(TagSerializer.java:146)
+	at cam72cam.mod.serialization.TagSerializer.deserialize(TagSerializer.java:139)
+	at cam72cam.mod.item.CustomItem$ItemDataSerializer.<init>(CustomItem.java:157)
+	at cam72cam.immersiverailroading.items.BaseItemRollingStock$Data.<init>(BaseItemRollingStock.java:57)
+	at cam72cam.immersiverailroading.items.BaseItemRollingStock.getCustomName(BaseItemRollingStock.java:26)
+	at cam72cam.mod.item.CustomItem$ItemInternal.func_77653_i(CustomItem.java:96)
+	at net.minecraft.item.ItemStack.func_82833_r(ItemStack.java:617)
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:662)
+	at net.minecraft.client.Minecraft.lambda$populateSearchTreeManager$1(Minecraft.java:576)
+	at net.minecraft.client.util.SearchTree.func_194042_b(SourceFile:49)
+	at net.minecraft.client.util.SearchTree.func_194043_a(SourceFile:44)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.client.Minecraft.func_193986_ar(Minecraft.java:590)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:529)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at cam72cam.mod.serialization.TagSerializer.deserialize(TagSerializer.java:146)
+	at cam72cam.mod.serialization.TagSerializer.deserialize(TagSerializer.java:139)
+	at cam72cam.mod.item.CustomItem$ItemDataSerializer.<init>(CustomItem.java:157)
+	at cam72cam.immersiverailroading.items.BaseItemRollingStock$Data.<init>(BaseItemRollingStock.java:57)
+	at cam72cam.immersiverailroading.items.BaseItemRollingStock.getCustomName(BaseItemRollingStock.java:26)
+	at cam72cam.mod.item.CustomItem$ItemInternal.func_77653_i(CustomItem.java:96)
+	at net.minecraft.item.ItemStack.func_82833_r(ItemStack.java:617)
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:662)
+	at net.minecraft.client.Minecraft.lambda$populateSearchTreeManager$1(Minecraft.java:576)
+	at net.minecraft.client.util.SearchTree.func_194042_b(SourceFile:49)
+	at net.minecraft.client.util.SearchTree.func_194043_a(SourceFile:44)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.client.Minecraft.func_193986_ar(Minecraft.java:590)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:529)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Mac OS X (x86_64) version 10.16
+	Java Version: 1.8.0_242, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+	Memory: 1850965896 bytes (1765 MB) / 4156555264 bytes (3964 MB) up to 9544663040 bytes (9102 MB)
+	JVM Flags: 3 total; -Xmx10240m -Xms10240m -Xms256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2855 80 mods loaded, 80 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                | Version               | Source                                          | Signature                                |
+	|:----- |:--------------------------------- |:--------------------- |:----------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft                         | 1.12.2                | minecraft.jar                                   | None                                     |
+	| LCH   | mcp                               | 9.42                  | minecraft.jar                                   | None                                     |
+	| LCH   | FML                               | 8.0.99.99             | forge-1.12.2-14.23.5.2855.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge                             | 14.23.5.2855          | forge-1.12.2-14.23.5.2855.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | advancedrocketrycore              | 1                     | minecraft.jar                                   | None                                     |
+	| LCH   | creativecoredummy                 | 1.0.0                 | minecraft.jar                                   | None                                     |
+	| LCH   | entity_culling                    | 4.1.5                 | minecraft.jar                                   | None                                     |
+	| LCH   | littletilescore                   | 1.0.0                 | minecraft.jar                                   | None                                     |
+	| LCH   | xaerominimap_core                 | 1.12.2-1.0            | minecraft.jar                                   | None                                     |
+	| LCH   | xaeroworldmap_core                | 1.12.2-1.0            | minecraft.jar                                   | None                                     |
+	| LCH   | opencomputers|core                | 1.7.5.192             | minecraft.jar                                   | None                                     |
+	| LCH   | ic2                               | 2.8.170-ex112         | industrialcraft-2-2.8.170-ex112.jar             | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LCH   | immersiveengineering              | 0.12-98               | ImmersiveEngineering-0.12-98.jar                | None                                     |
+	| LCH   | libvulpes                         | 0.4.2.-84             | LibVulpes-1.12.2-0.4.2-84-universal.jar         | None                                     |
+	| LCH   | advancedrocketry                  | 1.7.0.-232            | AdvancedRocketry-1.12.2-1.7.0-232-universal.jar | None                                     |
+	| LCH   | betterhud                         | 1.4.4                 | betterhud-1.12.2-1.4.4.jar                      | None                                     |
+	| LCH   | betterquesting                    | 3.5.329               | BetterQuesting-3.5.329.jar                      | None                                     |
+	| LCH   | blockcraftery                     | 1.12.2-1.3.1          | blockcraftery-1.12.2-1.3.1.jar                  | None                                     |
+	| LCH   | bnbgaminglib                      | 2.17.6                | BNBGamingLib-1.12.2-2.17.6.jar                  | None                                     |
+	| LCH   | ctm                               | MC1.12.2-1.0.2.31     | CTM-MC1.12.2-1.0.2.31.jar                       | None                                     |
+	| LCH   | chisel                            | MC1.12.2-1.0.2.45     | Chisel-MC1.12.2-1.0.2.45.jar                    | None                                     |
+	| LCH   | clearwater                        | 1.2                   | clearwater-1.2.jar                              | None                                     |
+	| LCH   | clumps                            | 3.1.2                 | Clumps-3.1.2.jar                                | None                                     |
+	| LCH   | codechickenlib                    | 3.2.3.358             | CodeChickenLib-1.12.2-3.2.3.358-universal.jar   | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | collective                        | 2.64                  | collective-1.12.2-2.64.jar                      | None                                     |
+	| LCH   | creativecore                      | 1.10.0                | CreativeCore_v1.10.65_mc1.12.2.jar              | None                                     |
+	| LCH   | customstartinggear                | 1.2.0                 | CustomStartingGear-1.12-1.2.0.9-universal.jar   | None                                     |
+	| LCH   | defaultworldgenerator-port        | 1.12-2.3              | DefaultWorldGenerator-port-1.12-2.3.jar         | None                                     |
+	| LCH   | dynamictrees                      | 1.12.2-0.9.25         | DynamicTrees-1.12.2-0.9.25.jar                  | None                                     |
+	| LCH   | endercore                         | 1.12.2-0.5.76         | EnderCore-1.12.2-0.5.76.jar                     | None                                     |
+	| LCH   | enderio                           | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | enderiointegrationtic             | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | enderiobase                       | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | enderioconduits                   | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | enderioconduitsappliedenergistics | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | opencomputers                     | 1.7.5.192             | OpenComputers-MC1.12.2-1.7.5.192.jar            | None                                     |
+	| LCH   | enderioconduitsopencomputers      | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | enderioconduitsrefinedstorage     | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | enderiointegrationforestry        | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | enderiointegrationticlate         | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | enderioinvpanel                   | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | enderiomachines                   | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | enderiopowertools                 | 5.3.70                | EnderIO-1.12.2-5.3.70.jar                       | None                                     |
+	| LCH   | enderstorage                      | 2.4.6.137             | EnderStorage-1.12.2-2.4.6.137-universal.jar     | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | extrautils2                       | 1.0                   | extrautils2-1.12-1.9.9.jar                      | None                                     |
+	| LCH   | fbp                               | 2.4.1                 | FancyBlockParticles-1.12.x-2.4.1.jar            | None                                     |
+	| LCH   | konkrete                          | 1.1.7                 | konkrete_1.1.7_MC_1.12-1.12.2.jar               | None                                     |
+	| LCH   | fancymenu                         | 2.2.2                 | fancymenu_2.2.2-1_MC_1.12-1.12.2.jar            | None                                     |
+	| LCH   | waila                             | 1.8.26                | Hwyla-1.8.26-B41_1.12.2.jar                     | None                                     |
+	| LCH   | immersivecables                   | 1.3.2                 | ImmersiveCables-1.12.2-1.3.2.jar                | None                                     |
+	| LCH   | immersivepetroleum                | 1.1.10                | immersivepetroleum-1.12.2-1.1.10.jar            | None                                     |
+	| LCH   | immersiveposts                    | 0.2.1                 | ImmersivePosts-0.2.1.jar                        | 0ba8738eadcf158e7fe1452255a73a022fb15feb |
+	| LCH   | trackapi                          | 1.2                   | TrackAPI-1.2.jar                                | None                                     |
+	| LCH   | universalmodcore                  | 1.1.3                 | UniversalModCore-1.12.2-forge-1.1.3.jar         | None                                     |
+	| LCH   | immersiverailroading              | 1.9.1                 | ImmersiveRailroading-1.12.2-forge-1.9.1.jar     | None                                     |
+	| LCH   | littleframes                      | 1.0.0                 | LittleFrames_v1.0.8_mc1.12.2.jar                | None                                     |
+	| LCH   | littletiles                       | 1.5.0                 | LittleTiles_v1.5.27_mc1.12.2.jar                | None                                     |
+	| LCH   | loadingscreens                    | 0.3.1                 | LoadingScreens-1.12.2-0.3.1.jar                 | None                                     |
+	| LCH   | malisiscore                       | 1.12.2-6.5.1-SNAPSHOT | malisiscore-1.12.2-6.5.1.jar                    | None                                     |
+	| LCH   | malisisblocks                     | 1.12.2-6.1.0          | malisisblocks-1.12.2-6.1.0.jar                  | None                                     |
+	| LCH   | malisisdoors                      | 1.12.2-7.3.0          | malisisdoors-1.12.2-7.3.0.jar                   | None                                     |
+	| LCH   | mca                               | 6.1.0                 | MCA-1.12.2-6.1.0-universal.jar                  | None                                     |
+	| LCH   | mcjtylib_ng                       | 3.5.4                 | mcjtylib-1.12-3.5.4.jar                         | None                                     |
+	| LCH   | immersivetech                     | 1.8.94                | MCTImmersiveTechnology-1.12.2-1.8.94.jar        | None                                     |
+	| LCH   | movingelevators                   | 1.2.34                | movingelevators-1.2.34-mc1.12.jar               | None                                     |
+	| LCH   | particleculling                   | 1.0                   | particleculling-1.12.2-v1.0.1.jar               | None                                     |
+	| LCH   | perfectspawn                      | 2.1                   | PerfectSpawn-MC1.12.2-2.1.jar                   | None                                     |
+	| LCH   | questbook                         | 3.1.1-1.12            | questbook-3.1.1-1.12.jar                        | None                                     |
+	| LCH   | resourceloader                    | 1.5.3                 | ResourceLoader-MC1.12.1-1.5.3.jar               | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCH   | bq_standard                       | 3.4.173               | StandardExpansion-3.4.173.jar                   | None                                     |
+	| LCH   | undergroundbiomes                 | 1.3.8                 | UndergroundBiomesConstructs-1.12-1.3.8.jar      | None                                     |
+	| LCH   | villagernames                     | 3.3                   | villagernames_1.12.2-3.3.jar                    | None                                     |
+	| LCH   | gvc                               | 1.2.5                 | Voice Chat Reloaded-1.2.5.jar                   | None                                     |
+	| LCH   | wawla                             | 2.6.275               | Wawla-1.12.2-2.6.275.jar                        | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCH   | worldedit                         | 6.1.10                | worldedit-forge-mc1.12.2-6.1.10-dist.jar        | None                                     |
+	| LCH   | xaerominimap                      | 21.16.0               | Xaeros_Minimap_21.16.0_Forge_1.12.jar           | None                                     |
+	| LCH   | xaeroworldmap                     | 1.17.0.1              | XaerosWorldMap_1.17.0.1_Forge_1.12.jar          | None                                     |
+	| LCH   | orelib                            | 3.6.0.1               | OreLib-1.12.2-3.6.0.1.jar                       | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCH   | rtg                               | 6.1.0.0-snapshot.1    | RTG-1.12.2-6.1.0.0-snapshot.1.jar               | None                                     |
+	| LCH   | mysticallib                       | 1.12.2-1.12.0         | mysticallib-1.12.2-1.12.0.jar                   | None                                     |
+
+	Loaded coremods (and transformers): 
+XaeroWorldMapPlugin (XaerosWorldMap_1.17.0.1_Forge_1.12.jar)
+  xaero.map.core.transformer.ChunkTransformer
+  xaero.map.core.transformer.NetHandlerPlayClientTransformer
+  xaero.map.core.transformer.EntityPlayerTransformer
+  xaero.map.core.transformer.AbstractClientPlayerTransformer
+  xaero.map.core.transformer.WorldClientTransformer
+  xaero.map.core.transformer.PlayerListTransformer
+  xaero.map.core.transformer.BiomeColorHelperTransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+TransformerLoader (OpenComputers-MC1.12.2-1.7.5.192.jar)
+  li.cil.oc.common.asm.ClassTransformer
+FMCore (fancymenu_2.2.2-1_MC_1.12-1.12.2.jar)
+  
+KonkreteCore (konkrete_1.1.7_MC_1.12-1.12.2.jar)
+  
+LittlePatchingLoader (LittleTiles_v1.5.27_mc1.12.2.jar)
+  com.creativemd.littletiles.LittleTilesTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+EntityCullingPlugin (EntityCulling-1.12.2-4.1.5.jar)
+  meldexun.entityculling.plugin.EntityCullingTransformer
+AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.7.0-232-universal.jar)
+  zmaster587.advancedRocketry.asm.ClassTransformer
+LoadingPlugin (PerfectSpawn-MC1.12.2-2.1.jar)
+  lumien.perfectspawn.asm.ClassTransformer
+EnderCorePlugin (EnderCore-1.12.2-0.5.76-core.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+  com.enderio.core.common.transform.SimpleMixinPatcher
+ParticleCullingLoadingPlugin (particleculling-1.12.2-v1.0.1.jar)
+  
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+  
+CreativePatchingLoader (CreativeCore_v1.10.65_mc1.12.2.jar)
+  
+XaeroMinimapPlugin (Xaeros_Minimap_21.16.0_Forge_1.12.jar)
+  xaero.common.core.transformer.ChunkTransformer
+  xaero.common.core.transformer.NetHandlerPlayClientTransformer
+  xaero.common.core.transformer.EntityPlayerTransformer
+  xaero.common.core.transformer.AbstractClientPlayerTransformer
+  xaero.common.core.transformer.WorldClientTransformer
+  xaero.common.core.transformer.EntityPlayerSPTransformer
+  xaero.common.core.transformer.PlayerListTransformer
+  xaero.common.core.transformer.GuiIngameForgeTransformer
+  xaero.common.core.transformer.GuiBossOverlayTransformer
+  xaero.common.core.transformer.ModelRendererTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '2.1 NVIDIA-16.0.13 ' Renderer: 'NVIDIA GeForce GT 750M OpenGL Engine'
+	Ender IO: No known problems detected.
+	Authlib is : /Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!You are looking at the diagnostics information, not at the crash.       !!!
+	!!!Scroll up until you see the line with '---- Minecraft Crash Report ----'!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+	Launched Version: 1.12.2
+	LWJGL: 2.9.2
+	OpenGL: NVIDIA GeForce GT 750M OpenGL Engine GL version 2.1 NVIDIA-16.0.13 , NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because ARB_framebuffer_object is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>

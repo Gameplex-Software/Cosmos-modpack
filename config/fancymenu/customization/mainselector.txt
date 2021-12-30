@@ -1,0 +1,85 @@
+type = menu
+
+customization-meta {
+  identifier = planetselect
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-centered
+  x = -340
+  width = 664
+  actionid = 3e96e5d1-2f77-429b-bbb5-5b952393dcc11635081674556
+  action = addtexture
+  y = -183
+  height = 372
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -81
+  actionid = 29ffefcb-2b0c-4eb3-9b6a-0aa1e07cfdb41635081747204
+  action = addtext
+  y = -181
+  scale = 1.0
+  alignment = left
+  value = Select Destination [Beta 0.1.1]
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = sendmessage
+  x = -323
+  width = 127
+  actionid = 8728fda8-7e2f-4557-bb75-21e5aac269071635158467835
+  action = addbutton
+  y = -152
+  backgroundhovered = resources/btn.png
+  label = Return To Station
+  backgroundnormal = resources/btn.png
+  value = /tpp @p -2 107 146 47
+  height = 34
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = sendmessage
+  x = -322
+  width = 127
+  actionid = 0dc776a7-a44f-4846-9683-8a2d90d8cf891635158467835
+  action = addbutton
+  y = -115
+  backgroundhovered = resources/btn.png
+  label = Travel to Celena
+  backgroundnormal = resources/btn.png
+  value = /tpp @p 4 83 77 -64
+  height = 33
+}
+
+customization {
+  path = resources/console.jpg
+  orientation = mid-centered
+  x = 89
+  width = 224
+  actionid = ac65dd0c-a525-4621-a13a-678baf7467161635157507986
+  action = addtexture
+  y = -141
+  height = 140
+}
+
+customization {
+  path = resources/warp_core.gif
+  orientation = mid-centered
+  x = 89
+  width = 224
+  actionid = de735841-3b71-4b3f-b710-4562ae00a1d11635157551478
+  action = addtexture
+  y = -2
+  height = 140
+}
+

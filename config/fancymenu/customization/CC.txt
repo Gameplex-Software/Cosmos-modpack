@@ -1,0 +1,34 @@
+type = menu
+
+customization-meta {
+  identifier = net.mcreator.cosmoscore.gui.GuiTpmenu$GuiWindow
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-centered
+  x = -358
+  width = 685
+  actionid = 832ba80a-f3c7-4cd2-a23e-7bcc1057c6151635079113007
+  action = addtexture
+  y = -206
+  height = 418
+}
+
+customization {
+  orientation = top-left
+  buttonaction = runscript
+  x = 135
+  width = 100
+  actionid = d855b277-3225-433e-866b-edd515ccd8e71635079201909
+  action = addbutton
+  y = 140
+  label = Capracia
+  value = 
+  height = 20
+}
+

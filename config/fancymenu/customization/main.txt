@@ -1,0 +1,189 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/bg.jpg
+  action = texturizebackground
+}
+
+customization {
+  path = resources/Atmospheric Sci-Fi Horror Music - Interdimensional Horrors __ Royalty Free No Copyright Music.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=400346%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  path = resources/button1.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resources/c81e7b9c151206a69ea5e5e900be6dfd.png
+  orientation = top-centered
+  x = -132
+  width = 265
+  actionid = 9e6a3330-ee32-451a-aef8-e4858f4635fb1631808537627
+  action = addtexture
+  y = 17
+  height = 46
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-right
+  x = -119
+  width = 120
+  actionid = 5f0268c1-f277-42a7-b053-fe601e845f401631817269483
+  action = addtexture
+  y = -151
+  height = 179
+}
+
+customization {
+  path = resources/launchpad1.png
+  orientation = bottom-centered
+  x = -76
+  width = 153
+  actionid = ed166c6d-c67e-47f6-82f7-2a17aa9180b81631817715491
+  action = addtexture
+  y = -86
+  height = 58
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = -83
+  actionid = 037bb648-ce76-414f-a761-df7ea7e910f81631817856248
+  action = addtext
+  y = -24
+  scale = 1.0
+  alignment = left
+  value = Welcome to Cosmos %playername%!
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  x = -80
+  actionid = 57cf5860-a297-4ef4-8283-d6b52b8966f41631817946439
+  action = addtext
+  y = -99
+  scale = 1.0
+  alignment = left
+  value = Tristan Poland
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  x = -99
+  actionid = 9fc2162c-51de-4ec1-9ce6-84ccb87b408c1631817973476
+  action = addtext
+  y = -146
+  scale = 1.0
+  alignment = left
+  value = Pack Developers
+}
+
+customization {
+  orientation = mid-right
+  buttonaction = opencustomgui
+  x = -74
+  width = 63
+  actionid = fb3f837c-9a04-484a-8ea5-c371ca3afdce1635538305028
+  action = addbutton
+  y = -83
+  label = About
+  value = about
+  clicksound = resources/button1.wav
+  height = 20
+}
+
+customization {
+  showname = true
+  orientation = bottom-centered
+  crouching = false
+  x = 1
+  slim = false
+  actionid = e8f1e277-e463-4d08-9d03-9f9135fdc75d1631817754629
+  action = addentity
+  y = -57
+  scale = 60
+  playername = %playername%
+  skinurl = https://www.minecraftskins.com/uploads/skins/2021/09/15/space-engineer-spacesuit-revamp-18926172.png?v422
+  parrot = false
+}
+
+customization {
+  identifier = %id=400322%
+  path = resources/button1.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=400382%
+  path = resources/button1.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=502382%
+  path = resources/button1.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=376382%
+  path = resources/button1.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=400298%
+  path = resources/button1.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  showname = false
+  orientation = mid-right
+  crouching = false
+  x = -98
+  slim = false
+  actionid = 84264649-11b6-4af6-ad43-27d01693a4a01631817325872
+  action = addentity
+  y = -62
+  scale = 30
+  playername = TristanPoland
+  parrot = false
+}
+

@@ -1,0 +1,96 @@
+type = menu
+
+customization-meta {
+  identifier = about
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/bg.jpg
+  action = texturizebackground
+}
+
+customization {
+  path = resources/Atmospheric Sci-Fi Horror Music - Interdimensional Horrors __ Royalty Free No Copyright Music.wav
+  loop = false
+  action = addaudio
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-centered
+  x = -171
+  width = 344
+  actionid = b301fd48-d7ff-4614-ada5-fa64e7b202051631819601583
+  action = addtexture
+  y = -168
+  height = 334
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -55
+  actionid = da9ccf7f-899e-42e7-8dc0-6951982e94431631819667440
+  action = addtext
+  y = -163
+  scale = 1.0
+  alignment = left
+  value = About Tristan Poland
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-centered
+  x = -166
+  width = 83
+  actionid = a0e7a1dc-608f-4775-b424-b1a08c877a3e1631819723231
+  action = addtexture
+  y = -161
+  height = 100
+}
+
+customization {
+  showname = true
+  orientation = mid-centered
+  crouching = false
+  x = -128
+  slim = false
+  actionid = 00dc4163-16aa-4050-9ca2-7f55178251231631819653740
+  action = addentity
+  y = -76
+  scale = 40
+  playername = TristanPoland
+  parrot = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  multiline = true
+  x = -80
+  action = addwebtext
+  actionid = 4f9d8e10-6f85-4053-bb96-85f345c58e6c1631820089448
+  y = -143
+  scale = 1.0
+  alignment = left
+  url = https://tristanpoland.github.io/about-basic.txt
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = closegui
+  x = -49
+  width = 100
+  actionid = b2d909c3-90fa-4c6d-87fd-1965df9935951635102222897
+  action = addbutton
+  y = 141
+  label = Back
+  value = 
+  clicksound = resources/button1.wav
+  height = 20
+}
+

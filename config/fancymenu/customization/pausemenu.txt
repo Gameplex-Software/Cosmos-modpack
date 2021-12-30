@@ -1,0 +1,82 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiIngameMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = bottom-centered
+  x = -102
+  width = 204
+  actionid = 15cb81a8-dcc7-4b85-b2f0-c738560a73411631880703030
+  action = addtexture
+  y = -43
+  height = 43
+}
+
+customization {
+  path = resources/logo.png
+  orientation = bottom-centered
+  x = -98
+  width = 62
+  actionid = cfbe4cf3-495b-4ace-8092-5bbbcd08aba61631880730232
+  action = addtexture
+  y = -40
+  height = 37
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = -27
+  actionid = e64ff287-1856-43f0-bd4e-58354f9d18f01631880777390
+  action = addtext
+  y = -38
+  scale = 1.0
+  alignment = left
+  value = Get your copy today at:
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = -26
+  actionid = dfc8f8fc-01ab-47d6-a27f-76875e293d001631880829228
+  action = addtext
+  y = -26
+  scale = 1.0
+  alignment = left
+  value = https://tristanpoland
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = -27
+  actionid = a437627f-5f35-47ac-815b-9b8d5898ba701631880876588
+  action = addtext
+  y = -15
+  scale = 1.0
+  alignment = left
+  value = .github.io/pack/cosmos
+}
+
+customization {
+  showname = false
+  orientation = bottom-left
+  crouching = false
+  x = 18
+  slim = false
+  actionid = 183e8a79-ac4d-4c68-a659-f57f4afee4bb1631883114444
+  action = addentity
+  y = 0
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+
