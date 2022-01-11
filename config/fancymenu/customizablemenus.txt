@@ -36,3 +36,6 @@ zmaster587.libVulpes.inventory.GuiModular {
 net.minecraft.client.gui.GuiMultiplayer {
 }
 
+net.minecraft.client.gui.inventory.GuiDispenser {
+}
+

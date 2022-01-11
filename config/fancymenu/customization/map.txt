@@ -1,0 +1,46 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.inventory.GuiDispenser
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/minecraft-make-book-and-quill-step-1.png
+  orientation = top-left
+  x = 311
+  width = 313
+  actionid = ae4eeb90-becd-4dcc-84ba-a0712ba2e2a41641900689771
+  action = addtexture
+  y = 128
+  height = 295
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opencustomgui
+  x = -67
+  width = 100
+  actionid = 2cddb02a-31e6-4c6f-83d9-9d96848663e51641900764571
+  action = addbutton
+  y = -162
+  label = Open Cosmos Map
+  value = planetselect
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -85
+  actionid = 0739ec3f-d645-4440-a965-e4052212b6781641900753869
+  action = addtext
+  y = -137
+  scale = 1.0
+  alignment = left
+  value = Button is dark due to a bug!
+}
+

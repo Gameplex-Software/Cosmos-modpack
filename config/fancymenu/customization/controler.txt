@@ -10,19 +10,6 @@ customization-meta {
 
 customization {
   orientation = mid-centered
-  buttonaction = opencustomgui
-  x = -51
-  width = 100
-  actionid = 057258fb-0248-4f41-8d36-c569f8fa0e061635082292101
-  action = addbutton
-  y = 82
-  label = Open Cosmos Map
-  value = planetselect
-  height = 20
-}
-
-customization {
-  orientation = mid-centered
   shadow = false
   x = -110
   actionid = 607109ae-b8ab-4fa4-b2f1-b8bbe40ebf051635082309199

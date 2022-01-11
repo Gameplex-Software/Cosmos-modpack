@@ -284,6 +284,25 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "18:10": {
+      "questID:3": 18,
+      "completed:9": {
+        "0:10": {
+          "claimed:1": 0,
+          "uuid:8": "a4686b5b-2f26-4015-887d-c42382f3f73d",
+          "timestamp:4": 1641900431993
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "completeUsers:9": {
+            "0:8": "a4686b5b-2f26-4015-887d-c42382f3f73d"
+          },
+          "index:3": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      }
     }
   }
 }
