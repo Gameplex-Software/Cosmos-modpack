@@ -1239,7 +1239,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.0,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "cosmos:textures/gui/logo.png",
       "party_enable:1": 1,

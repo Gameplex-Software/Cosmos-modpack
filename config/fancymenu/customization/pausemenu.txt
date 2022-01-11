@@ -9,6 +9,12 @@ customization-meta {
 }
 
 customization {
+  path = resources/Atmospheric Sci-Fi Horror Music - Interdimensional Horrors __ Royalty Free No Copyright Music.wav
+  loop = false
+  action = addaudio
+}
+
+customization {
   path = resources/overlay.png
   orientation = bottom-centered
   x = -102
