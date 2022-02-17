@@ -2,7 +2,7 @@
 <p>&nbsp;</p>
 <h2>Pack in Beta</h2>
 <p>&nbsp;</p>
-<p><img src="https://i.ibb.co/fSvdx9s/background.png" alt="" width="1142" height="280" />&nbsp;</p>
+<p><img src="https://i.ibb.co/fSvdx9s/background.png" alt=""/>&nbsp;</p>
 <p>&nbsp;</p>
 <h2>ABOUT</h2>
 <p>The core concept of this pack is that you will spawn in space on a station (NOT YET COMPLETE OF FINAL IN ANY WAY) and have to do a series of repairs to prevent the station from becoming uninhabitable you spawn with a space suit, DO NOT REMOVE THE SUIT. Currently you also spawn in creative mode, this is a bug. Use "/gamemode s" to set to survival<br /><br /></p>
