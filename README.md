@@ -1,7 +1,6 @@
 <p><a href="https://discord.gg/FtMSjx4NHQ">Discord Server</a>&nbsp; &nbsp; &nbsp; <a href="https://gameplex-software.github.io/">Developer Website</a></p>
 <p>&nbsp;</p>
 <h2>Pack in Beta</h2>
-<p>&nbsp;</p>
 <p><img src="https://i.ibb.co/fSvdx9s/background.png" alt=""/>&nbsp;</p>
 <p>&nbsp;</p>
 <h2>ABOUT</h2>
